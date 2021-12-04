@@ -30,7 +30,7 @@
                 },
                 "current_turn_dff_suspended": false,
                 "context": {
-                    "id": "910da091-73a0-4049-878c-f592f4c3930a",
+                    "id": "9df8c782-6d18-4413-9710-f4d7cc0422d1",
                     "labels": {
                         "3": [
                             "bible_flow",
@@ -42,8 +42,8 @@
                         ]
                     },
                     "requests": {
-                        "3": "The new testament.",
-                        "4": "no."
+                        "3": "the new testament.",
+                        "4": "yes."
                     },
                     "responses": {
                         "3": "I know that Bible is one of the most widespread books on Earth. It is the foundation stone of Christianity. Have you read the whole Bible?",
@@ -54,10 +54,9 @@
                             "book_skill_active": true
                         },
                         "used_phrases": [
-                            140651401747504,
-                            140651402840656,
-                            140651402840656,
-                            140651402990656
+                            140659711258032,
+                            140659711952624,
+                            140659712099712
                         ]
                     },
                     "validation": false,

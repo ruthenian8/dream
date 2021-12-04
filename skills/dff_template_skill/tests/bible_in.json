@@ -6,9 +6,9 @@
         {
             "human_utterances": [
                 {
-                    "text": "The new testament.",
+                    "text": "the new testament.",
                     "annotations": {
-                        "spelling_preprocessing": "The new testament",
+                        "spelling_preprocessing": "the new testament",
                         "asr": {
                             "asr_confidence": "undefined"
                         },
@@ -18,40 +18,61 @@
                             "restricted_topics": false
                         },
                         "factoid_classification": {
-                            "factoid": 0.10352395474910736,
-                            "conversational": 0.8964760899543762
+                            "factoid": 0.01887902058660984,
+                            "conversational": 0.9811210036277771
+                        },
+                        "combined_classification": {
+                            "cobot_dialogact_intents": {
+                                "Information_DeliveryIntent": 0.952994167804718
+                            },
+                            "cobot_dialogact_topics": {
+                                "Entertainment_Books": 0.9948868751525879
+                            },
+                            "cobot_topics": {
+                                "Movies_TV": 0.9976483583450317
+                            },
+                            "emotion_classification": {
+                                "neutral": 0.9951903820037842
+                            },
+                            "sentiment_classification": {
+                                "neutral": 0.6289612054824829
+                            },
+                            "toxic_classification": {
+                                "insult": 0.001562744379043579
+                            }
                         },
                         "cobot_nounphrases": [
                             "the new testament"
                         ],
-                        "sentseg": {
-                            "punct_sent": "The new testament.",
-                            "segments": [
-                                "The new testament."
-                            ]
-                        },
-                        "combined_classification": {
-                            "cobot_dialogact_intents": {
-                                "Information_DeliveryIntent": 0.9564457535743713
-                            },
-                            "cobot_dialogact_topics": {
-                                "Entertainment_Books": 0.9975889921188354
-                            },
-                            "cobot_topics": {
-                                "Movies_TV": 0.6227456331253052,
-                                "Religion": 0.9954225420951843
-                            },
-                            "emotion_classification": {
-                                "anger": 0.5479119420051575,
-                                "joy": 0.5208660364151001,
-                                "neutral": 0.9888641834259033
-                            },
-                            "sentiment_classification": {
-                                "neutral": 0.6499519944190979
-                            },
-                            "toxic_classification": {
-                                "toxic": 0.0014781057834625244
+                        "conceptnet": {
+                            "the new testament": {
+                                "Causes": [
+                                    "repentance",
+                                    "enlightenment",
+                                    "revelation"
+                                ],
+                                "CausesDesire": [
+                                    "read it",
+                                    "read bible",
+                                    "pray"
+                                ],
+                                "HasProperty": [
+                                    "very important",
+                                    "read",
+                                    "very important to human"
+                                ],
+                                "SymbolOf": [
+                                    "christianity",
+                                    "faith",
+                                    "islam"
+                                ]
                             }
+                        },
+                        "sentseg": {
+                            "punct_sent": "the new testament.",
+                            "segments": [
+                                "the new testament."
+                            ]
                         },
                         "topic_recommendation": [
                             "dff_movie_skill",
@@ -180,51 +201,27 @@
                                 }
                             ]
                         },
-                        "conceptnet": {
-                            "the new testament": {
-                                "Causes": [
-                                    "repentance",
-                                    "enlightenment",
-                                    "revelation"
-                                ],
-                                "CausesDesire": [
-                                    "read it",
-                                    "read bible",
-                                    "pray"
-                                ],
-                                "HasProperty": [
-                                    "very important",
-                                    "read",
-                                    "very important to human"
-                                ],
-                                "SymbolOf": [
-                                    "christianity",
-                                    "faith",
-                                    "islam"
-                                ]
-                            }
-                        },
                         "ner": [
                             []
                         ],
                         "entity_linking": [],
-                        "fact_random": [],
-                        "fact_retrieval": {
-                            "facts": [],
-                            "topic_facts": []
-                        },
                         "kbqa": {
                             "answer": "",
                             "confidence": 0.0,
                             "qa_system": "kbqa"
                         },
+                        "fact_random": [],
+                        "fact_retrieval": {
+                            "facts": [],
+                            "topic_facts": []
+                        },
                         "sentrewrite": {
                             "clusters": [],
                             "modified_sents": [
                                 "I enjoy reading so much! Books help me understand humans much better. Why do you enjoy reading?",
-                                "for no reason.",
+                                "For no reason.",
                                 "That's great. Outside of a dog, a book is man's best friend. What is the last book you have read?",
-                                "The new testament."
+                                "the new testament."
                             ]
                         },
                         "wiki_parser": {
@@ -238,16 +235,16 @@
                             {
                                 "entity": "all",
                                 "news": {
-                                    "content": "Stephen Parlato of Boulder, Colo., holds a sign that reads \"Hands Off Roe!!!\" outside of the Supreme Court in Washington, Tuesday, Nov. 30, 2021, as activists begin to arrive ahead of arguments on abortion at the court in Washington.(AP Photo/Andrew ... [5222 chars]",
-                                    "description": "Stephen Parlato of Boulder, Colo., holds a sign that reads \"Hands Off Roe!!!\" outside of the Supreme Court in Washington, Tuesday, Nov. 30, 2021, as activists begin to arrive ahead of arguments on abortion at the court in Washington.",
-                                    "image": "https://storage.googleapis.com/afs-prod/media/7639bcefe34d44e2b24594c439b17b5f/3000.jpeg",
-                                    "publishedAt": "2021-12-01T06:04:53Z",
+                                    "content": "Early one morning this fall, the California state assemblywoman Buffy Wicks felt a type of pain she had never experienced before.\nWicks, 44, found herself doubled over in pain, barely able to walk or get her daughter ready for school. At her doctor\u2019s... [3853 chars]",
+                                    "description": "Early one morning this fall, the California state assemblywoman Buffy Wicks felt a type of pain she had never experienced before. Wicks, 44, found herself doubled over in pain, barely able to walk or get her daughter ready for school.",
+                                    "image": "https://i.guim.co.uk/img/media/c7355ea5f389a243c7f84a94bd8f7edc916efc42/0_0_5294_3176/master/5294.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=871a19e35641586417950c596f3617b8",
+                                    "publishedAt": "2021-12-04T11:02:00Z",
                                     "source": {
-                                        "name": "Associated Press",
-                                        "url": "https://apnews.com"
+                                        "name": "The Guardian",
+                                        "url": "https://www.theguardian.com"
                                     },
-                                    "title": "Abortion rights at stake in historic Supreme Court arguments",
-                                    "url": "https://apnews.com/article/abortion-donald-trump-us-supreme-court-health-amy-coney-barrett-a3b5cf9621315e6c623dc80a790842d8"
+                                    "title": "Supreme court case prompts California lawmaker to share her abortion experience",
+                                    "url": "https://www.theguardian.com/us-news/2021/dec/04/buffy-wicks-abortion-supreme-court-twitter"
                                 },
                                 "which": "all"
                             },
@@ -271,12 +268,9 @@
                     }
                 },
                 {
-                    "text": "no.",
+                    "text": "yes.",
                     "annotations": {
-                        "spelling_preprocessing": "no",
-                        "asr": {
-                            "asr_confidence": "undefined"
-                        },
+                        "spelling_preprocessing": "yes",
                         "blacklisted_words": {
                             "inappropriate": false,
                             "profanity": false,
@@ -284,36 +278,45 @@
                         },
                         "cobot_nounphrases": [],
                         "factoid_classification": {
-                            "factoid": 0.004733121953904629,
-                            "conversational": 0.9952669143676758
-                        },
-                        "combined_classification": {
-                            "cobot_dialogact_intents": {
-                                "Information_DeliveryIntent": 0.7071344256401062
-                            },
-                            "cobot_dialogact_topics": {
-                                "Other": 0.8173004388809204
-                            },
-                            "cobot_topics": {
-                                "Phatic": 0.9986573457717896
-                            },
-                            "emotion_classification": {
-                                "neutral": 0.9984775185585022
-                            },
-                            "sentiment_classification": {
-                                "neutral": 0.6736716032028198
-                            },
-                            "toxic_classification": {
-                                "toxic": 0.003819406032562256
-                            }
+                            "factoid": 0.004948326386511326,
+                            "conversational": 0.9950516819953918
                         },
                         "conceptnet": {},
+                        "combined_classification": {
+                            "cobot_dialogact_intents": {
+                                "General_ChatIntent": 0.545558512210846,
+                                "Information_DeliveryIntent": 0.6853393316268921
+                            },
+                            "cobot_dialogact_topics": {
+                                "Other": 0.8792664408683777
+                            },
+                            "cobot_topics": {
+                                "Phatic": 0.9971470832824707
+                            },
+                            "emotion_classification": {
+                                "neutral": 0.9989004135131836
+                            },
+                            "sentiment_classification": {
+                                "positive": 0.7943169474601746
+                            },
+                            "toxic_classification": {
+                                "toxic": 0.0072702765464782715
+                            }
+                        },
+                        "asr": {
+                            "asr_confidence": "undefined"
+                        },
                         "sentseg": {
-                            "punct_sent": "no.",
+                            "punct_sent": "yes.",
                             "segments": [
-                                "no."
+                                "yes."
                             ]
                         },
+                        "topic_recommendation": [
+                            "dff_movie_skill",
+                            "dff_travel_skill",
+                            "dff_music_skill"
+                        ],
                         "intent_catcher": {
                             "cant_do": {
                                 "confidence": 0.0,
@@ -340,8 +343,8 @@
                                 "detected": 0
                             },
                             "no": {
-                                "confidence": 1.0,
-                                "detected": 1
+                                "confidence": 0.0,
+                                "detected": 0
                             },
                             "opinion_request": {
                                 "confidence": 0.0,
@@ -400,58 +403,79 @@
                                 "detected": 0
                             },
                             "yes": {
-                                "confidence": 0.0,
-                                "detected": 0
+                                "confidence": 1.0,
+                                "detected": 1
                             }
                         },
-                        "topic_recommendation": [
-                            "dff_movie_skill",
-                            "dff_travel_skill",
-                            "dff_music_skill"
-                        ],
                         "midas_classification": [
                             {
-                                "appreciation": 0.0005498873069882393,
-                                "command": 0.000764154945500195,
-                                "comment": 0.0007041685748845339,
-                                "complaint": 0.009263645857572556,
-                                "dev_command": 0.0010196027578786016,
-                                "neg_answer": 0.9782261252403259,
-                                "open_question_factual": 0.0011422254610806704,
-                                "open_question_opinion": 0.0008234080160036683,
-                                "opinion": 0.0011427627177909017,
-                                "other_answers": 0.0025747495237737894,
-                                "pos_answer": 0.002011244185268879,
-                                "statement": 0.0007305336184799671,
-                                "yes_no_question": 0.0010474231094121933
+                                "appreciation": 0.0011744361836463213,
+                                "command": 0.0012431021314114332,
+                                "comment": 0.000866158283315599,
+                                "complaint": 0.000308301649056375,
+                                "dev_command": 0.0006835751119069755,
+                                "neg_answer": 0.0009709555888548493,
+                                "open_question_factual": 0.0003353930951561779,
+                                "open_question_opinion": 0.00041243297164328396,
+                                "opinion": 0.0005713750724680722,
+                                "other_answers": 0.0006873204838484526,
+                                "pos_answer": 0.9906424880027771,
+                                "statement": 0.0015131826512515545,
+                                "yes_no_question": 0.0005912062479183078
                             }
                         ],
-                        "entity_detection": {},
                         "ner": [
                             []
                         ],
+                        "entity_detection": {},
                         "entity_linking": [],
+                        "fact_random": [],
+                        "fact_retrieval": {
+                            "facts": [],
+                            "topic_facts": []
+                        },
+                        "kbqa": {
+                            "answer": "",
+                            "confidence": 0.0,
+                            "qa_system": "kbqa"
+                        },
+                        "wiki_parser": {
+                            "animals_skill_entities_info": {},
+                            "entities_info": {},
+                            "topic_skill_entities_info": {},
+                            "utt_num": 5,
+                            "wiki_skill_entities_info": {}
+                        },
+                        "sentrewrite": {
+                            "clusters": [],
+                            "modified_sents": [
+                                "That's great. Outside of a dog, a book is man's best friend. What is the last book you have read?",
+                                "the new testament.",
+                                "I know that Bible is one of the most widespread books on Earth. It is the foundation stone of Christianity. Have you read the whole Bible?",
+                                "yes, i have read the whole bible. "
+                            ]
+                        },
                         "news_api_annotator": [
                             {
                                 "entity": "all",
                                 "news": {
-                                    "content": "Stephen Parlato of Boulder, Colo., holds a sign that reads \"Hands Off Roe!!!\" outside of the Supreme Court in Washington, Tuesday, Nov. 30, 2021, as activists begin to arrive ahead of arguments on abortion at the court in Washington.(AP Photo/Andrew ... [5222 chars]",
-                                    "description": "Stephen Parlato of Boulder, Colo., holds a sign that reads \"Hands Off Roe!!!\" outside of the Supreme Court in Washington, Tuesday, Nov. 30, 2021, as activists begin to arrive ahead of arguments on abortion at the court in Washington.",
-                                    "image": "https://storage.googleapis.com/afs-prod/media/7639bcefe34d44e2b24594c439b17b5f/3000.jpeg",
-                                    "publishedAt": "2021-12-01T06:04:53Z",
+                                    "content": "Early one morning this fall, the California state assemblywoman Buffy Wicks felt a type of pain she had never experienced before.\nWicks, 44, found herself doubled over in pain, barely able to walk or get her daughter ready for school. At her doctor\u2019s... [3853 chars]",
+                                    "description": "Early one morning this fall, the California state assemblywoman Buffy Wicks felt a type of pain she had never experienced before. Wicks, 44, found herself doubled over in pain, barely able to walk or get her daughter ready for school.",
+                                    "image": "https://i.guim.co.uk/img/media/c7355ea5f389a243c7f84a94bd8f7edc916efc42/0_0_5294_3176/master/5294.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=871a19e35641586417950c596f3617b8",
+                                    "publishedAt": "2021-12-04T11:02:00Z",
                                     "source": {
-                                        "name": "Associated Press",
-                                        "url": "https://apnews.com"
+                                        "name": "The Guardian",
+                                        "url": "https://www.theguardian.com"
                                     },
-                                    "title": "Abortion rights at stake in historic Supreme Court arguments",
-                                    "url": "https://apnews.com/article/abortion-donald-trump-us-supreme-court-health-amy-coney-barrett-a3b5cf9621315e6c623dc80a790842d8"
+                                    "title": "Supreme court case prompts California lawmaker to share her abortion experience",
+                                    "url": "https://www.theguardian.com/us-news/2021/dec/04/buffy-wicks-abortion-supreme-court-twitter"
                                 },
                                 "which": "all"
                             },
                             {
                                 "entity": "bible",
                                 "news": {
-                                    "content": "FILE - Actor-director-writer Mel Brooks poses next to a framed poster of his 1974 film \"Blazing Saddles\" in Los Angeles on July 23, 1991. Brooks released a memoir, \"All About Me!: My Remarkable Life in Show Business.\" (AP Photo/Nick Ut, File)\nFILE - ... [12511 chars]",
+                                    "content": "FILE - Actor-director-writer Mel Brooks poses next to a framed poster of his 1974 film \"Blazing Saddles\" in Los Angeles on July 23, 1991. Brooks released a memoir, \"All About Me!: My Remarkable Life in Show Business.\" (AP Photo/Nick Ut, File)\nFILE - ... [12515 chars]",
                                     "description": "FILE - Actor-director-writer Mel Brooks poses next to a framed poster of his 1974 film \"Blazing Saddles\" in Los Angeles on July 23, 1991. Brooks released a memoir, \"All About Me!",
                                     "image": "https://storage.googleapis.com/afs-prod/media/01a0aa3befeb4cdfb76bb61aedc58b06/2626.jpeg",
                                     "publishedAt": "2021-11-30T18:02:01Z",
@@ -464,33 +488,7 @@
                                 },
                                 "which": "bot"
                             }
-                        ],
-                        "fact_retrieval": {
-                            "facts": [],
-                            "topic_facts": []
-                        },
-                        "kbqa": {
-                            "answer": "",
-                            "confidence": 0.0,
-                            "qa_system": "kbqa"
-                        },
-                        "fact_random": [],
-                        "wiki_parser": {
-                            "animals_skill_entities_info": {},
-                            "entities_info": {},
-                            "topic_skill_entities_info": {},
-                            "utt_num": 5,
-                            "wiki_skill_entities_info": {}
-                        },
-                        "sentrewrite": {
-                            "clusters": [],
-                            "modified_sents": [
-                                "That's great. Outside of a dog, a book is man's best friend. What is the last book you have read?",
-                                "The new testament.",
-                                "I know that Bible is one of the most widespread books on Earth. It is the foundation stone of Christianity. Have you read the whole Bible?",
-                                "no, i haven't read the whole bible. "
-                            ]
-                        }
+                        ]
                     }
                 }
             ],
@@ -522,9 +520,9 @@
                         "sentrewrite": {
                             "clusters": [],
                             "modified_sents": [
-                                "for no reason.",
+                                "For no reason.",
                                 "That's great. Outside of a dog, a book is man's best friend. What is the last book you have read?",
-                                "The new testament.",
+                                "the new testament.",
                                 "I know that Bible is one of the most widespread books on Earth. It is the foundation stone of Christianity. Have you read the whole Bible?"
                             ]
                         }
@@ -538,7 +536,7 @@
         {
             "context": {
                 "actor_state": {},
-                "id": "910da091-73a0-4049-878c-f592f4c3930a",
+                "id": "9df8c782-6d18-4413-9710-f4d7cc0422d1",
                 "labels": {
                     "2": [
                         "books_general",
@@ -554,14 +552,13 @@
                         "book_skill_active": true
                     },
                     "used_phrases": [
-                        140651401747504,
-                        140651402840656,
-                        140651402840656
+                        140659711258032,
+                        140659711952624
                     ]
                 },
                 "requests": {
-                    "2": "for no reason.",
-                    "3": "The new testament."
+                    "2": "For no reason.",
+                    "3": "the new testament."
                 },
                 "responses": {
                     "2": "That's great. Outside of a dog, a book is man's best friend. What is the last book you've read?",
@@ -612,6 +609,5 @@
     ],
     "clarification_request_flag_batch": [
         false
-    ],
-    "random_seed": 2718
+    ]
 }
